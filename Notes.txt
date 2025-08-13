@@ -2,4 +2,5 @@
 #  to create build the image run " docker build -t Image_name ."   -t stands for the tag and " ." (dot) stands for current folder 
 # Don't attach the env to image it should be injected on the time of running the image 
 # Use Docker Volume to persistant the data 
-# Docker Network to Communicate between two containers or more 
+# Docker Network to Communicate between two containers or more
+# "docker run -d -p 27017:27017  --network your_network_name your_image "
